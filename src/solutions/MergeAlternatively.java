@@ -1,8 +1,8 @@
 package solutions;
 
-public class MergeAlternativelySolution {
+public class MergeAlternatively {
 
-    public static String mergeAlternately(String word1, String word2) {
+    public static String solution(String word1, String word2) {
     	var result = "";
         var firstWordSize = word1.length();
         var secondWordSize = word2.length();

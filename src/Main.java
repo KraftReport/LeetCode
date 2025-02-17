@@ -1,7 +1,10 @@
+import java.util.Arrays;
+
 import solutions.CanPlaceFolwers;
 import solutions.GreatestCommonDivisorOfStrings;
 import solutions.KidsWithTheGreatestNumberOfCandies;
 import solutions.MergeAlternatively;
+import solutions.ProductOfTheArrayExceptSelf;
 import solutions.ReverseVowelsOfAString;
 import solutions.ReverseWordsInAString;
 
@@ -12,9 +15,8 @@ public class Main {
 //		System.out.println(GreatestCommonDivisorOfStrings.solution("helloworld", "hello"));
 //		System.out.println(KidsWithTheGreatestNumberOfCandies.solution(new int[] {2,3,5,1,3}, 3));
 //		System.out.println(CanPlaceFolwers.solution(new int[] {0,0,0,0,1}, 2));
-//		System.out.println(ReverseVowelsOfAString.solution("leetcode"));
-		System.out.println(ReverseWordsInAString.solution("the sky is blue"));
-		System.out.println(ReverseWordsInAString.solution("a good   example"));
-		System.out.println(ReverseWordsInAString.solution("  hello world  "));
+//		System.out.println(ReverseVowelsOfAString.solution("leetcode")); 
+//		System.out.println(ReverseWordsInAString.solution("  hello world  "));
+		Arrays.stream(ProductOfTheArrayExceptSelf.solution(new int[] {-1,1,0,-3,3})).boxed().toList().forEach(System.out::println);
 	}
 }

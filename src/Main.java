@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 import solutions.CanPlaceFolwers;
 import solutions.GreatestCommonDivisorOfStrings;
+import solutions.IncreasingTripletSubsequence;
 import solutions.KidsWithTheGreatestNumberOfCandies;
 import solutions.MergeAlternatively;
 import solutions.ProductOfTheArrayExceptSelf;
@@ -17,6 +18,9 @@ public class Main {
 //		System.out.println(CanPlaceFolwers.solution(new int[] {0,0,0,0,1}, 2));
 //		System.out.println(ReverseVowelsOfAString.solution("leetcode")); 
 //		System.out.println(ReverseWordsInAString.solution("  hello world  "));
-		Arrays.stream(ProductOfTheArrayExceptSelf.solution(new int[] {-1,1,0,-3,3})).boxed().toList().forEach(System.out::println);
+//		Arrays.stream(ProductOfTheArrayExceptSelf.solution(new int[] {-1,1,0,-3,3})).boxed().toList().forEach(System.out::println);
+		System.out.println(IncreasingTripletSubsequence.solution(new int[] {1,2,3,4,5}));
+		System.out.println(IncreasingTripletSubsequence.solution(new int[] {1,9,0,10}));
+		System.out.println(IncreasingTripletSubsequence.solution(new int[] {1,5,0,4,1,3}));
 	}
 }

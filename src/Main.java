@@ -5,6 +5,7 @@ import solutions.GreatestCommonDivisorOfStrings;
 import solutions.IncreasingTripletSubsequence;
 import solutions.KidsWithTheGreatestNumberOfCandies;
 import solutions.MergeAlternatively;
+import solutions.MoveZeros;
 import solutions.ProductOfTheArrayExceptSelf;
 import solutions.ReverseVowelsOfAString;
 import solutions.ReverseWordsInAString;
@@ -23,6 +24,7 @@ public class Main {
 //		System.out.println(IncreasingTripletSubsequence.solution(new int[] {1,2,3,4,5}));
 //		System.out.println(IncreasingTripletSubsequence.solution(new int[] {1,9,0,10}));
 //		System.out.println(IncreasingTripletSubsequence.solution(new int[] {1,5,0,4,1,3}));
-		System.out.println(StringCompression.solution(new char[] {'a','a','b','b','c','c','c'}));
+//		System.out.println(StringCompression.solution(new char[] {'a','a','b','b','c','c','c'}));
+		System.out.println(MoveZeros.solution(new int[] {0,0,1}));
 	}
 }

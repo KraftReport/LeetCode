@@ -6,6 +6,7 @@ import solutions.GreatestCommonDivisorOfStrings;
 import solutions.IncreasingTripletSubsequence;
 import solutions.IsSubsequence;
 import solutions.KidsWithTheGreatestNumberOfCandies;
+import solutions.MaxNumbersOfKSumPairs;
 import solutions.MergeAlternatively;
 import solutions.MoveZeros;
 import solutions.ProductOfTheArrayExceptSelf;
@@ -27,6 +28,7 @@ public class Main {
 //		System.out.println(StringCompression.solution(new char[] {'a','a','b','b','c','c','c'}));
 //		System.out.println(MoveZeros.solution(new int[] {0,0,1}));
 //		System.out.println(IsSubsequence.solution("abc", "cccaaaacccbbbbbaaabccddcabcc"));
-		System.out.println(ContainerWithMostWater.solution(new int[] {1,8,6,2,5,4,8,3,7}));
+//		System.out.println(ContainerWithMostWater.solution(new int[] {1,8,6,2,5,4,8,3,7}));
+		System.out.println(MaxNumbersOfKSumPairs.solution(new int[] {1,2,3,4,5}, 5));
 	}
 }

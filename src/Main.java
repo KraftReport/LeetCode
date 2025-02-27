@@ -7,6 +7,7 @@ import solutions.IncreasingTripletSubsequence;
 import solutions.IsSubsequence;
 import solutions.KidsWithTheGreatestNumberOfCandies;
 import solutions.MaxNumbersOfKSumPairs;
+import solutions.MaximumNumberOfVowelsInSubstringOfGivenLength;
 import solutions.MaximunAverageSubArray;
 import solutions.MergeAlternatively;
 import solutions.MoveZeros;
@@ -31,6 +32,7 @@ public class Main {
 //		System.out.println(IsSubsequence.solution("abc", "cccaaaacccbbbbbaaabccddcabcc"));
 //		System.out.println(ContainerWithMostWater.solution(new int[] {1,8,6,2,5,4,8,3,7}));
 //		System.out.println(MaxNumbersOfKSumPairs.solution(new int[] {1,2,3,4,5}, 5));
-		System.out.println(MaximunAverageSubArray.solution(new int[] {1,12,-5,-6,50,3}, 4));
+//		System.out.println(MaximunAverageSubArray.solution(new int[] {1,12,-5,-6,50,3}, 4));
+		System.out.println(MaximumNumberOfVowelsInSubstringOfGivenLength.solution("weallloveyou",7));
 	}
 }

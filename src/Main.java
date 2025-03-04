@@ -6,6 +6,7 @@ import solutions.GreatestCommonDivisorOfStrings;
 import solutions.IncreasingTripletSubsequence;
 import solutions.IsSubsequence;
 import solutions.KidsWithTheGreatestNumberOfCandies;
+import solutions.LongestSubarrayOfOnesAfterDeletingOneElement;
 import solutions.MaxConsecutiveOnesIII;
 import solutions.MaxNumbersOfKSumPairs;
 import solutions.MaximumNumberOfVowelsInSubstringOfGivenLength;
@@ -35,6 +36,7 @@ public class Main {
 //		System.out.println(MaxNumbersOfKSumPairs.solution(new int[] {1,2,3,4,5}, 5));
 //		System.out.println(MaximunAverageSubArray.solution(new int[] {1,12,-5,-6,50,3}, 4));
 //		System.out.println(MaximumNumberOfVowelsInSubstringOfGivenLength.solution("weallloveyou",7));
-		System.out.println(MaxConsecutiveOnesIII.solution(new int[] {1,1,1,0,0,0,1,1,1,1,0}, 2));
+//		System.out.println(MaxConsecutiveOnesIII.solution(new int[] {1,1,1,0,0,0,1,1,1,1,0}, 2));
+		System.out.println(LongestSubarrayOfOnesAfterDeletingOneElement.solution(new int[] { 1, 1, 1, 0, 1 }));
 	}
 }

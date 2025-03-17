@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 import solutions.CanPlaceFolwers;
+import solutions.ContainDuplicates;
 import solutions.ContainerWithMostWater;
 import solutions.GreatestCommonDivisorOfStrings;
 import solutions.IncreasingTripletSubsequence;
@@ -37,6 +38,7 @@ public class Main {
 //		System.out.println(MaximunAverageSubArray.solution(new int[] {1,12,-5,-6,50,3}, 4));
 //		System.out.println(MaximumNumberOfVowelsInSubstringOfGivenLength.solution("weallloveyou",7));
 //		System.out.println(MaxConsecutiveOnesIII.solution(new int[] {1,1,1,0,0,0,1,1,1,1,0}, 2));
-		System.out.println(LongestSubarrayOfOnesAfterDeletingOneElement.solution(new int[] { 1, 1, 1, 0, 1 }));
+//		System.out.println(LongestSubarrayOfOnesAfterDeletingOneElement.solution(new int[] { 1, 1, 1, 0, 1 }));
+		System.out.println(ContainDuplicates.solution(new int[] {1,1,2,4}));
 	}
 }

@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"solutions"
+	"leetcode/solutions"
 )
 
 func main() {
-	fmt.Println(solutions.MajorityElementSolution([]int{3, 2, 3})) // 3
+	// fmt.Println(solutions.MajorityElementSolution([]int{3, 2, 3})) // 3
+	fmt.Println(solutions.MissingNumberSolution([]int{1,0,3}))
 }

@@ -1,3 +1,5 @@
+package solutions
+
 type NumArray struct {
     numArray []int
 }

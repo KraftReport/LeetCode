@@ -1,12 +1,22 @@
+# Ignore specific build and IDE files
 bin/
 *.mod
 .classpath
 .project
 
-# Ignore everything
+# Ignore everything by default
 *
 
-# Allow dart/lib contents only
+# Allow Dart files and folders
 !dart/
-!dart/lib/
-!dart/lib/**
+!dart/**
+
+# Allow Go files and folders
+!go/
+!go/**
+!go/**/*.go
+
+# Allow Java files and folders
+!java/
+!java/**
+!java/**/*.java

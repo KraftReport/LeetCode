@@ -15,5 +15,6 @@ func main() {
 	// fmt.Println(solutions.NextGreaterElement([]int{4,1,2},[]int{1,3,4,2}))
 	// fmt.Println(solutions.KeyboardRowSolution([]string{"Hello","Alaska","Dad","Peace"}))
 	// fmt.Println(solutions.ValidParenthesesSolution("()"))
-	fmt.Println(solutions.FindTheIndexOfFirstOccuranceIntheString("sadbutsad","sad"))
+	// fmt.Println(solutions.FindTheIndexOfFirstOccuranceIntheString("sadbutsad","sad"))
+	fmt.Println(solutions.LengthOfLastWordSolution("hello world"))
 }

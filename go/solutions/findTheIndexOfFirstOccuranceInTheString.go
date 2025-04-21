@@ -1,6 +1,5 @@
 package solutions
 
-import "fmt"
 
 func FindTheIndexOfFirstOccuranceIntheString(haystack string,needle string) int {
 	

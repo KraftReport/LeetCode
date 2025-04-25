@@ -18,5 +18,6 @@ func main() {
 	// fmt.Println(solutions.FindTheIndexOfFirstOccuranceIntheString("sadbutsad","sad"))
 	// fmt.Println(solutions.LengthOfLastWordSolution("hello world"))
 	// fmt.Println(solutions.AddBinarySolution("0","0"))
-	fmt.Println(solutions.ValidPlaindromeSolution("race a car"))
+	// fmt.Println(solutions.ValidPlaindromeSolution("race a car"))
+	fmt.Println(solutions.ExcelSheetColumnTitleSolution(28))
 }

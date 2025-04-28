@@ -21,5 +21,6 @@ func main() {
 	// fmt.Println(solutions.ValidPlaindromeSolution("race a car"))
 	// fmt.Println(solutions.ExcelSheetColumnTitleSolution(28))
 	// fmt.Println(solutions.ExcelSheetColumnNumberSolution("FXSHRXW"))
-	fmt.Println(solutions.IsomorphicStringsSolution("foo","bar"))
+	// fmt.Println(solutions.IsomorphicStringsSolution("foo","bar"))
+	fmt.Println(solutions.ValidAnagramSolution("anagram","nagaram"))
 }

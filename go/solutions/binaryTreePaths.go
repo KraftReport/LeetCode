@@ -10,7 +10,7 @@ type TreeNode struct {
  
 
 func BinaryTreePaths(root *TreeNode)[]string{
-	var result = []string
+	result := []string{}
 	getValue(root,"",&result)
 	return result
 }

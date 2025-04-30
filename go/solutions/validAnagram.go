@@ -15,12 +15,6 @@ func ValidAnagramSolution(s string, t string) bool {
 		}
 	}
 
-	// for i := 0 ; i < len(s) ; i++ {
-	// 	if strings.Contains(t,string(s[i])){
-	// 		t = strings.Replace(t,string(s[i]),"",1)
-	// 	}
-	// }
-
 	if len(t) == 0 { return true}
 
 	return false

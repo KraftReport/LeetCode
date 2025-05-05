@@ -24,5 +24,6 @@ func main() {
 	// fmt.Println(solutions.IsomorphicStringsSolution("foo","bar"))
 	// fmt.Println(solutions.ValidAnagramSolution("anagram","nagaram"))
 	// fmt.Println(solutions.WordPatternSolution("abba","dog cat cat dog"))
-	fmt.Println(solutions.MaximunProductOfTwoDigitsSolution(20))
+	// fmt.Println(solutions.MaximunProductOfTwoDigitsSolution(20))
+	fmt.Println(solutions.LongestPlaindromeSolution("abccccdd"))
 }

@@ -25,13 +25,6 @@ func DetectCapitalSolution(word string)bool{
 		}
 	
 	}
-
- 
- 
-
-
-
-
-
+  
 	return true
 }

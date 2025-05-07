@@ -26,5 +26,6 @@ func main() {
 	// fmt.Println(solutions.WordPatternSolution("abba","dog cat cat dog"))
 	// fmt.Println(solutions.MaximunProductOfTwoDigitsSolution(20))
 	// fmt.Println(solutions.LongestPlaindromeSolution("abccccdd"))
-	fmt.Println(solutions.DetectCapitalSolution("mL"))
+	// fmt.Println(solutions.DetectCapitalSolution("mL"))
+	fmt.Println(solutions.RansomNoteSolution("aa","aab"))
 }

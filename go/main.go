@@ -28,5 +28,6 @@ func main() {
 	// fmt.Println(solutions.LongestPlaindromeSolution("abccccdd"))
 	// fmt.Println(solutions.DetectCapitalSolution("mL"))
 	// fmt.Println(solutions.RansomNoteSolution("aa","aab"))
-	fmt.Println(solutions.FirstUniqueCharacterSolution("aabb"))
+	// fmt.Println(solutions.FirstUniqueCharacterSolution("aabb"))
+	fmt.Println(solutions.MostFrequentVowelAndConsonantSolution("successes"))
 }

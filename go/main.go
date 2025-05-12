@@ -29,5 +29,7 @@ func main() {
 	// fmt.Println(solutions.DetectCapitalSolution("mL"))
 	// fmt.Println(solutions.RansomNoteSolution("aa","aab"))
 	// fmt.Println(solutions.FirstUniqueCharacterSolution("aabb"))
-	fmt.Println(solutions.MostFrequentVowelAndConsonantSolution("successes"))
+	// fmt.Println(solutions.MostFrequentVowelAndConsonantSolution("successes"))
+	// fmt.Println(solutions.ThreeConcetutiveOdds([]int{1,4,3}))
+	fmt.Println(solutions.FindingThreeDigitsEvenNumbers([]int{2,1,3,0}))
 }

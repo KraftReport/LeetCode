@@ -20,3 +20,12 @@ bin/
 !java/
 !java/**
 !java/**/*.java
+
+!c#/
+!c#/**
+!c#/**/*.cs
+*.dll
+*.pdb
+/c\#/Console/.vs
+/c\#/Console/bin
+/c\#/Console/obj

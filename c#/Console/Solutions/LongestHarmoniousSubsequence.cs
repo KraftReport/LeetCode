@@ -10,17 +10,26 @@ namespace Console.Solutions
     {
         public static int Solution(int[] nums)
         {
-            var longestValue = 0; 
+            var hashMap = nums.GroupBy(num => num).ToDictionary(num => num.Key, num => num.Count());
 
-            for (var i = 0; i < nums.Length-1; i++)
+            var result = 0;
+
+            foreach(var map in hashMap)
             {
-                if (nums[i+1] - nums[i] < 2)
-                {
-                    longestValue++;
-                } 
-            }
+                var currentValue = 0;
 
-            return longestValue;
+                if(hashMap.ContainsKey(map.Key + 1))
+                {
+                    currentValue = hashMap[map.Key] + hashMap[map.Key + 1];
+                }
+
+                if(currentValue > result)
+                {
+                    result = currentValue;
+                }
+            } 
+
+            return result;
         }
     }
 }

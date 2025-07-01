@@ -10,7 +10,9 @@ namespace Console.Solutions
     {
         public static int Solution(int[] nums)
         {
-            var hashMap = nums.GroupBy(num => num).ToDictionary(num => num.Key, num => num.Count());
+            var hashMap = nums
+                .GroupBy(num => num)
+                .ToDictionary(num => num.Key, num => num.Count());
 
             var result = 0;
 

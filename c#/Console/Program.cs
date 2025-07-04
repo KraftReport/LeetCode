@@ -6,4 +6,6 @@ using System;
 
 //System.Console.WriteLine(PossibleStringCount.Solution("abbcccc"));
 
-System.Console.WriteLine(KthCharacterInString.Solution(10));
+//System.Console.WriteLine(KthCharacterInString.Solution(10));
+
+System.Console.WriteLine(TheKthCharacterInStringTwo.Solution(456402, new int[] { 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1 }));

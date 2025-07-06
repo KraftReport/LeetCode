@@ -10,4 +10,6 @@ using System;
 
 //System.Console.WriteLine(TheKthCharacterInStringTwo.Solution(456402, new int[] { 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1 }));
 
-System.Console.WriteLine(LuckyInteger.Solution(new int[] { 4, 3, 2, 2, 4, 1, 3, 4, 3 }));
+//System.Console.WriteLine(LuckyInteger.Solution(new int[] { 4, 3, 2, 2, 4, 1, 3, 4, 3 }));
+
+System.Console.WriteLine(IsPlaindrome.Solution(1123321));

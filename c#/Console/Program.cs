@@ -12,4 +12,6 @@ using System;
 
 //System.Console.WriteLine(LuckyInteger.Solution(new int[] { 4, 3, 2, 2, 4, 1, 3, 4, 3 }));
 
-System.Console.WriteLine(IsPlaindrome.Solution(1123321));
+//System.Console.WriteLine(IsPlaindrome.Solution(1123321));
+
+System.Console.WriteLine(FindTheDifference.Solution("abcd", "abcde"));

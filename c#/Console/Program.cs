@@ -14,4 +14,6 @@ using System;
 
 //System.Console.WriteLine(IsPlaindrome.Solution(1123321));
 
-System.Console.WriteLine(FindTheDifference.Solution("abcd", "abcde"));
+//System.Console.WriteLine(FindTheDifference.Solution("abcd", "abcde"));
+
+System.Console.WriteLine(AddStrings.Solution("3876620623801494171", "6529364523802684779"));

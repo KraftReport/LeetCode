@@ -16,4 +16,6 @@ using System;
 
 //System.Console.WriteLine(FindTheDifference.Solution("abcd", "abcde"));
 
-System.Console.WriteLine(AddStrings.Solution("3876620623801494171", "6529364523802684779"));
+//System.Console.WriteLine(AddStrings.Solution("3876620623801494171", "6529364523802684779"));
+
+System.Console.WriteLine(LongestUncommonSequence.Solution("aefawfawfawfaw", "aefawfeawfwafwaef"));

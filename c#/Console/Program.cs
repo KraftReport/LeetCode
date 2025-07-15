@@ -18,4 +18,6 @@ using System;
 
 //System.Console.WriteLine(AddStrings.Solution("3876620623801494171", "6529364523802684779"));
 
-System.Console.WriteLine(LongestUncommonSequence.Solution("aefawfawfawfaw", "aefawfeawfwafwaef"));
+//System.Console.WriteLine(LongestUncommonSequence.Solution("aefawfawfawfaw", "aefawfeawfwafwaef"));
+
+System.Console.WriteLine(NumberOfSegmentsInAString.Solution("Hello, my name is John"));

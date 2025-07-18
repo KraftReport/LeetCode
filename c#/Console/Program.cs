@@ -22,4 +22,6 @@ using System;
 
 //System.Console.WriteLine(NumberOfSegmentsInAString.Solution("Hello, my name is John"));
 
-System.Console.WriteLine(StudentAttendanceRecord.Solution("PPALLP"));
+//System.Console.WriteLine(StudentAttendanceRecord.Solution("PPALLP"));
+
+System.Console.WriteLine(JewelsAndStones.Solution("aA", "aAAbbbb"));

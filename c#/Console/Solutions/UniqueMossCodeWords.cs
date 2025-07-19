@@ -30,14 +30,10 @@ namespace Console.Solutions
                     mossCodeComibnation += mossCodes[character];
                 }
 
-                if (uniqueMossCodeCombinations.ContainsKey(mossCodeComibnation))
-                {
-                    uniqueMossCodeCombinations[mossCodeComibnation]++;
-                }
-                else
+                if (!uniqueMossCodeCombinations.ContainsKey(mossCodeComibnation))
                 {
                     uniqueMossCodeCombinations.Add(mossCodeComibnation, 1);
-                }
+                } 
             }
             return uniqueMossCodeCombinations.Count;
         }

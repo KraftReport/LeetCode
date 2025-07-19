@@ -24,4 +24,6 @@ using System;
 
 //System.Console.WriteLine(StudentAttendanceRecord.Solution("PPALLP"));
 
-System.Console.WriteLine(JewelsAndStones.Solution("aA", "aAAbbbb"));
+//System.Console.WriteLine(JewelsAndStones.Solution("aA", "aAAbbbb"));
+
+System.Console.WriteLine(UniqueMossCodeWords.Solution(new string[] { "gin", "zen", "gig", "msg" }));

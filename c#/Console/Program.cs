@@ -26,4 +26,6 @@ using System;
 
 //System.Console.WriteLine(JewelsAndStones.Solution("aA", "aAAbbbb"));
 
-System.Console.WriteLine(UniqueMossCodeWords.Solution(new string[] { "gin", "zen", "gig", "msg" }));
+//System.Console.WriteLine(UniqueMossCodeWords.Solution(new string[] { "gin", "zen", "gig", "msg" }));
+
+System.Console.WriteLine(NumberOfUniqueEmails.Solution(new string[] { "test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com" }));

@@ -30,4 +30,6 @@ using System;
 
 //System.Console.WriteLine(NumberOfUniqueEmails.Solution(new string[] { "test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com" }));
 
-System.Console.WriteLine(DefangingIpAddress.Solution("1.1.1.1"));
+//System.Console.WriteLine(DefangingIpAddress.Solution("1.1.1.1"));
+
+System.Console.WriteLine(RingAndRods.Solution("B0R0G0R9R0B0G0"));

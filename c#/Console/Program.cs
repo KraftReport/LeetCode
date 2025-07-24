@@ -34,4 +34,6 @@ using System;
 
 //System.Console.WriteLine(RingAndRods.Solution("B0R0G0R9R0B0G0"));
 
-System.Console.WriteLine(GoatLatin.Solution("I speak Goat Latin"));
+//System.Console.WriteLine(GoatLatin.Solution("I speak Goat Latin"));
+
+System.Console.WriteLine(LicenceKeyFormatting.Solution("2-4A0r7-4k", 4));

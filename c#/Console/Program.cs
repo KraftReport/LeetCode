@@ -36,4 +36,6 @@ using System;
 
 //System.Console.WriteLine(GoatLatin.Solution("I speak Goat Latin"));
 
-System.Console.WriteLine(LicenceKeyFormatting.Solution("2-4A0r7-4k", 4));
+//System.Console.WriteLine(LicenceKeyFormatting.Solution("2-4A0r7-4k", 4));
+
+System.Console.WriteLine(MaxNumberOfBalloons.Solution("krhizmmgmcrecekgyljqkldocicziihtgpqwbticmvuyznragqoyrukzopfmjhjjxemsxmrsxuqmnkrzhgvtgdgtykhcglurvppvcwhrhrjoislonvvglhdciilduvuiebmffaagxerjeewmtcwmhmtwlxtvlbocczlrppmpjbpnifqtlninyzjtmazxdbzwxthpvrfulvrspycqcghuopjirzoeuqhetnbrcdakilzmklxwudxxhwilasbjjhhfgghogqoofsufysmcqeilaivtmfziumjloewbkjvaahsaaggteppqyuoylgpbdwqubaalfwcqrjeycjbbpifjbpigjdnnswocusuprydgrtxuaojeriigwumlovafxnpibjopjfqzrwemoinmptxddgcszmfprdrichjeqcvikynzigleaajcysusqasqadjemgnyvmzmbcfrttrzonwafrnedglhpudovigwvpimttiketopkvqw"));

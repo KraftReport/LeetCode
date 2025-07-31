@@ -40,4 +40,6 @@ using System;
 
 //System.Console.WriteLine(MaxNumberOfBalloons.Solution("krhizmmgmcrecekgyljqkldocicziihtgpqwbticmvuyznragqoyrukzopfmjhjjxemsxmrsxuqmnkrzhgvtgdgtykhcglurvppvcwhrhrjoislonvvglhdciilduvuiebmffaagxerjeewmtcwmhmtwlxtvlbocczlrppmpjbpnifqtlninyzjtmazxdbzwxthpvrfulvrspycqcghuopjirzoeuqhetnbrcdakilzmklxwudxxhwilasbjjhhfgghogqoofsufysmcqeilaivtmfziumjloewbkjvaahsaaggteppqyuoylgpbdwqubaalfwcqrjeycjbbpifjbpigjdnnswocusuprydgrtxuaojeriigwumlovafxnpibjopjfqzrwemoinmptxddgcszmfprdrichjeqcvikynzigleaajcysusqasqadjemgnyvmzmbcfrttrzonwafrnedglhpudovigwvpimttiketopkvqw"));
 
-System.Console.WriteLine(CountPairsLessThanTarget.Solution(new int[] { -1, 1, 2, 3, 1}, 2));
+//System.Console.WriteLine(CountPairsLessThanTarget.Solution(new int[] { -1, 1, 2, 3, 1}, 2));
+
+System.Console.WriteLine(ReversePrefixOfWord.Solution("abcdefd", 'd'));

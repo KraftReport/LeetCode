@@ -42,4 +42,6 @@ using System;
 
 //System.Console.WriteLine(CountPairsLessThanTarget.Solution(new int[] { -1, 1, 2, 3, 1}, 2));
 
-System.Console.WriteLine(ReversePrefixOfWord.Solution("abcdefd", 'd'));
+//System.Console.WriteLine(ReversePrefixOfWord.Solution("abcdefd", 'd'));
+
+System.Console.WriteLine(ArithmeticTriplets.Solution(new int[] { 4, 5, 6, 7, 8, 9 }, 2));

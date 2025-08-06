@@ -50,11 +50,13 @@ using System;
 
 //System.Console.WriteLine(FirstPlanedrome.Solution(new string[] { "abc", "car", "ada", "racecar", "cool" }));
 
-System.Console.WriteLine(MergeTwoDimensionalArraysBySummingValues.Solution(new int[][] {
-    new int[] { 2, 4 },
-    new int[] { 3, 6 },
-    new int[] { 5, 5 }
-}, new int[][] {
-    new int[] { 1, 3 },
-    new int[] { 4, 3 }
-}));
+//System.Console.WriteLine(MergeTwoDimensionalArraysBySummingValues.Solution(new int[][] {
+//    new int[] { 2, 4 },
+//    new int[] { 3, 6 },
+//    new int[] { 5, 5 }
+//}, new int[][] {
+//    new int[] { 1, 3 },
+//    new int[] { 4, 3 }
+//}));
+
+System.Console.WriteLine(ReverseString.Solution("Let's take LeetCode contest"));

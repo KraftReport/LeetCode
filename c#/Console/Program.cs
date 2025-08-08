@@ -59,4 +59,6 @@ using System;
 //    new int[] { 4, 3 }
 //}));
 
-System.Console.WriteLine(ReverseString.Solution("Let's take LeetCode contest"));
+//System.Console.WriteLine(ReverseString.Solution("Let's take LeetCode contest"));
+
+System.Console.WriteLine(DIStringMatch.Solution("IDID"));

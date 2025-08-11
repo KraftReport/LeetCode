@@ -61,4 +61,6 @@ using System;
 
 //System.Console.WriteLine(ReverseString.Solution("Let's take LeetCode contest"));
 
-System.Console.WriteLine(DIStringMatch.Solution("IDID"));
+//System.Console.WriteLine(DIStringMatch.Solution("IDID"));
+
+System.Console.WriteLine(LexiographicallySmallestPlaindrome.Solution("egcfe"));

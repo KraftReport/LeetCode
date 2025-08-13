@@ -63,4 +63,11 @@ using System;
 
 //System.Console.WriteLine(DIStringMatch.Solution("IDID"));
 
-System.Console.WriteLine(LexiographicallySmallestPlaindrome.Solution("egcfe"));
+//System.Console.WriteLine(LexiographicallySmallestPlaindrome.Solution("egcfe"));
+
+var result = FindKDistinctIndices.Solution(new int[] { 2, 2, 2, 2, 2 }, 2, 2);
+
+foreach(var r in result)
+{
+    System.Console.WriteLine(r);
+}

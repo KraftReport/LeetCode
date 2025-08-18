@@ -65,9 +65,14 @@ using System;
 
 //System.Console.WriteLine(LexiographicallySmallestPlaindrome.Solution("egcfe"));
 
-var result = FindKDistinctIndices.Solution(new int[] { 2, 2, 2, 2, 2 }, 2, 2);
+//var result = FindKDistinctIndices.Solution(new int[] { 2, 2, 2, 2, 2 }, 2, 2);
 
-foreach(var r in result)
+//foreach(var r in result)
+//{
+//    System.Console.WriteLine(r);
+//}
+
+foreach(int data in MinNumbersOfOperationsToMoveAllBallsIntoEachBox.Solution("001011"))
 {
-    System.Console.WriteLine(r);
-}
+    System.Console.WriteLine(data);
+} 

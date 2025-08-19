@@ -72,7 +72,12 @@ using System;
 //    System.Console.WriteLine(r);
 //}
 
-foreach(int data in MinNumbersOfOperationsToMoveAllBallsIntoEachBox.Solution("001011"))
+//foreach(int data in MinNumbersOfOperationsToMoveAllBallsIntoEachBox.Solution("001011"))
+//{
+//    System.Console.WriteLine(data);
+//} 
+
+foreach (int data in PartitionArrayAccordingToGivenPivot.Solution(new int[] { 9, 12, 5, 10, 14, 3, 10 }, 10))
 {
     System.Console.WriteLine(data);
-} 
+}

@@ -77,7 +77,9 @@ using System;
 //    System.Console.WriteLine(data);
 //} 
 
-foreach (int data in PartitionArrayAccordingToGivenPivot.Solution(new int[] { 9, 12, 5, 10, 14, 3, 10 }, 10))
-{
-    System.Console.WriteLine(data);
-}
+//foreach (int data in PartitionArrayAccordingToGivenPivot.Solution(new int[] { 9, 12, 5, 10, 14, 3, 10 }, 10))
+//{
+//    System.Console.WriteLine(data);
+//}
+
+System.Console.WriteLine(CountMaximunNumberOfBitwistORSubsets.Solution(new int[] { 3, 2, 1, 5 }));

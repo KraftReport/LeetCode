@@ -82,4 +82,9 @@ using System;
 //    System.Console.WriteLine(data);
 //}
 
-System.Console.WriteLine(CountMaximunNumberOfBitwistORSubsets.Solution(new int[] { 3, 2, 1, 5 }));
+//System.Console.WriteLine(CountMaximunNumberOfBitwistORSubsets.Solution(new int[] { 3, 2, 1, 5 }));
+
+foreach(int data in BuildArrayFromPermutation.Solution(new int[] { 5, 0, 1, 2, 3, 4 }))
+{
+    System.Console.WriteLine(data);
+}

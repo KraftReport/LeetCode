@@ -84,7 +84,12 @@ using System;
 
 //System.Console.WriteLine(CountMaximunNumberOfBitwistORSubsets.Solution(new int[] { 3, 2, 1, 5 }));
 
-foreach(int data in BuildArrayFromPermutation.Solution(new int[] { 5, 0, 1, 2, 3, 4 }))
+//foreach(int data in BuildArrayFromPermutation.Solution(new int[] { 5, 0, 1, 2, 3, 4 }))
+//{
+//    System.Console.WriteLine(data);
+//}
+
+foreach(int data in FindTheOriginalArrayOfPrefixXor.Solution(new int[] { 5, 2, 0, 3, 1 }))
 {
     System.Console.WriteLine(data);
 }

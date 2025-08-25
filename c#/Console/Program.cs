@@ -94,10 +94,15 @@ using System;
 //    System.Console.WriteLine(data);
 //}
 
-foreach(IList<int> data in GroupThePeopleGivenTheGroupTheyBelongTo.Solution(new int[] { 3, 3, 3, 3, 3, 1, 3 }))
+//foreach(IList<int> data in GroupThePeopleGivenTheGroupTheyBelongTo.Solution(new int[] { 3, 3, 3, 3, 3, 1, 3 }))
+//{
+//    foreach(int i in data)
+//    {
+//        System.Console.WriteLine(i);
+//    }
+//}
+
+foreach(int data in FindThePrefixCommonArrayOfTwoArrays.Solution(new int[] { 1, 3, 2, 4 },new int[] { 3, 1, 2, 4 }))
 {
-    foreach(int i in data)
-    {
-        System.Console.WriteLine(i);
-    }
+    System.Console.WriteLine(data);
 }

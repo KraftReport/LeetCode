@@ -102,7 +102,16 @@ using System;
 //    }
 //}
 
-foreach(int data in FindThePrefixCommonArrayOfTwoArrays.Solution(new int[] { 1, 3, 2, 4 },new int[] { 3, 1, 2, 4 }))
+//foreach(int data in FindThePrefixCommonArrayOfTwoArrays.Solution(new int[] { 1, 3, 2, 4 },new int[] { 3, 1, 2, 4 }))
+//{
+//    System.Console.WriteLine(data);
+//}
+
+foreach (IList<int> data in ConvertAnArrayInto2DArrayWithConditions.Solution(new int[] { 1, 2, 3, 4 }))
 {
-    System.Console.WriteLine(data);
+    foreach (int i in data)
+    {
+        System.Console.WriteLine(i);
+    }
+    System.Console.WriteLine("----");
 }

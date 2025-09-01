@@ -107,11 +107,13 @@ using System;
 //    System.Console.WriteLine(data);
 //}
 
-foreach (IList<int> data in ConvertAnArrayInto2DArrayWithConditions.Solution(new int[] { 1, 2, 3, 4 }))
-{
-    foreach (int i in data)
-    {
-        System.Console.WriteLine(i);
-    }
-    System.Console.WriteLine("----");
-}
+//foreach (IList<int> data in ConvertAnArrayInto2DArrayWithConditions.Solution(new int[] { 1, 2, 3, 4 }))
+//{
+//    foreach (int i in data)
+//    {
+//        System.Console.WriteLine(i);
+//    }
+//    System.Console.WriteLine("----");
+//}
+
+System.Console.WriteLine(MaxIncreaseToCitySkyLine.Solution(new int[][] { [3, 0, 8, 4], [2, 4, 5, 7], [9, 2, 6, 3], [0, 3, 1, 0] }));

@@ -116,4 +116,6 @@ using System;
 //    System.Console.WriteLine("----");
 //}
 
-System.Console.WriteLine(MaxIncreaseToCitySkyLine.Solution(new int[][] { [3, 0, 8, 4], [2, 4, 5, 7], [9, 2, 6, 3], [0, 3, 1, 0] }));
+//System.Console.WriteLine(MaxIncreaseToCitySkyLine.Solution(new int[][] { [3, 0, 8, 4], [2, 4, 5, 7], [9, 2, 6, 3], [0, 3, 1, 0] }));
+
+MaximunBinaryTree.Solution(new int[] { 3, 2, 1, 6, 0, 5 });

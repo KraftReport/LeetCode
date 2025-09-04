@@ -118,4 +118,14 @@ using System;
 
 //System.Console.WriteLine(MaxIncreaseToCitySkyLine.Solution(new int[][] { [3, 0, 8, 4], [2, 4, 5, 7], [9, 2, 6, 3], [0, 3, 1, 0] }));
 
-MaximunBinaryTree.Solution(new int[] { 3, 2, 1, 6, 0, 5 });
+//MaximunBinaryTree.Solution(new int[] { 3, 2, 1, 6, 0, 5 });
+
+foreach (int[] array in SortTheStudentByTheirKthScore.Solution(new int[][] { [10, 6, 9, 1], [7, 5, 11, 2], [4, 8, 3, 15] },2))
+{
+    string row = string.Empty;
+    foreach(int data in array)
+    {
+        row += data;
+    }
+    System.Console.WriteLine(row);
+}

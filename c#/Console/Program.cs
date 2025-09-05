@@ -120,12 +120,14 @@ using System;
 
 //MaximunBinaryTree.Solution(new int[] { 3, 2, 1, 6, 0, 5 });
 
-foreach (int[] array in SortTheStudentByTheirKthScore.Solution(new int[][] { [10, 6, 9, 1], [7, 5, 11, 2], [4, 8, 3, 15] },2))
-{
-    string row = string.Empty;
-    foreach(int data in array)
-    {
-        row += data;
-    }
-    System.Console.WriteLine(row);
-}
+//foreach (int[] array in SortTheStudentByTheirKthScore.Solution(new int[][] { [10, 6, 9, 1], [7, 5, 11, 2], [4, 8, 3, 15] },2))
+//{
+//    string row = string.Empty;
+//    foreach(int data in array)
+//    {
+//        row += data;
+//    }
+//    System.Console.WriteLine(row);
+//}
+
+System.Console.WriteLine(NumberOfLaserBeamsInABank.Solution(new string[] { "011001", "000000", "010100", "001000" }));

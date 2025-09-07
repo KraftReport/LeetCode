@@ -130,4 +130,6 @@ using System;
 //    System.Console.WriteLine(row);
 //}
 
-System.Console.WriteLine(NumberOfLaserBeamsInABank.Solution(new string[] { "011001", "000000", "010100", "001000" }));
+//System.Console.WriteLine(NumberOfLaserBeamsInABank.Solution(new string[] { "011001", "000000", "010100", "001000" }));
+
+System.Console.WriteLine(MinimunAmountOfTimeToCollectGarbage.Solution(new string[] { "G", "P", "GP", "GG" }, new int[] { 2, 4, 3 }));

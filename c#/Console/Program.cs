@@ -132,4 +132,6 @@ using System;
 
 //System.Console.WriteLine(NumberOfLaserBeamsInABank.Solution(new string[] { "011001", "000000", "010100", "001000" }));
 
-System.Console.WriteLine(MinimunAmountOfTimeToCollectGarbage.Solution(new string[] { "G", "P", "GP", "GG" }, new int[] { 2, 4, 3 }));
+//System.Console.WriteLine(MinimunAmountOfTimeToCollectGarbage.Solution(new string[] { "G", "P", "GP", "GG" }, new int[] { 2, 4, 3 }));
+
+System.Console.WriteLine(CountTripletsThatCanFormTwoArraysOfEqualXOR.Solution(new int[] { 2, 3, 1, 6, 7 }));

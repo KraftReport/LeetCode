@@ -136,7 +136,17 @@ using System;
 
 //System.Console.WriteLine(CountTripletsThatCanFormTwoArraysOfEqualXOR.Solution(new int[] { 2, 3, 1, 6, 7 }));
 
-foreach(int data in MaximunXORForEachQuery.Solution(new int[] { 2, 3, 4, 7 }, 3))
+//foreach(int data in MaximunXORForEachQuery.Solution(new int[] { 2, 3, 4, 7 }, 3))
+//{
+//    System.Console.WriteLine(data);
+//}
+
+foreach (int[] data in SortMatrixByDiagonals.Solution(new int[][] { [1, 7, 3], [9, 8, 2], [4, 5, 6] }))
 {
-    System.Console.WriteLine(data);
+    string row = string.Empty;
+    foreach (int i in data)
+    {
+        row += i;
+    }
+    System.Console.WriteLine(row);
 }

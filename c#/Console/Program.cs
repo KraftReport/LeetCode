@@ -141,12 +141,17 @@ using System;
 //    System.Console.WriteLine(data);
 //}
 
-foreach (int[] data in SortMatrixByDiagonals.Solution(new int[][] { [1, 7, 3], [9, 8, 2], [4, 5, 6] }))
+//foreach (int[] data in SortMatrixByDiagonals.Solution(new int[][] { [1, 7, 3], [9, 8, 2], [4, 5, 6] }))
+//{
+//    string row = string.Empty;
+//    foreach (int i in data)
+//    {
+//        row += i;
+//    }
+//    System.Console.WriteLine(row);
+//}
+
+foreach(int data in QueriesOnAPermutationWithAKey.Solution(new int[] { 8, 7, 4, 2, 8, 1, 7, 7 },8))
 {
-    string row = string.Empty;
-    foreach (int i in data)
-    {
-        row += i;
-    }
-    System.Console.WriteLine(row);
+    System.Console.WriteLine(data);
 }

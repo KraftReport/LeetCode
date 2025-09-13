@@ -151,7 +151,9 @@ using System;
 //    System.Console.WriteLine(row);
 //}
 
-foreach(int data in QueriesOnAPermutationWithAKey.Solution(new int[] { 8, 7, 4, 2, 8, 1, 7, 7 },8))
-{
-    System.Console.WriteLine(data);
-}
+//foreach(int data in QueriesOnAPermutationWithAKey.Solution(new int[] { 8, 7, 4, 2, 8, 1, 7, 7 },8))
+//{
+//    System.Console.WriteLine(data);
+//}
+
+System.Console.WriteLine(MaximunNumberOfCoinYouCanGet.Solution(new int[] { 9, 8, 7, 6, 5, 1, 2, 3, 4 }));

@@ -156,4 +156,5 @@ using System;
 //    System.Console.WriteLine(data);
 //}
 
-System.Console.WriteLine(MaximunNumberOfCoinYouCanGet.Solution(new int[] { 9, 8, 7, 6, 5, 1, 2, 3, 4 }));
+//System.Console.WriteLine(MaximunNumberOfCoinYouCanGet.Solution(new int[] { 9, 8, 7, 6, 5, 1, 2, 3, 4 }));
+

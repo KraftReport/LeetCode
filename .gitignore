@@ -4,8 +4,7 @@ bin/
 .classpath
 .project
 
-# Ignore everything by default
-*
+ 
 
 # Allow Dart files and folders
 !dart/
@@ -29,3 +28,4 @@ bin/
 /c\#/Console/.vs
 /c\#/Console/bin
 /c\#/Console/obj
+/python/solutions/__pycache__

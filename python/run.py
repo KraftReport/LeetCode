@@ -7,6 +7,8 @@ from solutions.permutation_difference_between_two_strings import PermutationDiff
 from solutions.how_many_numbers_are_smaller_than_current_number import HowManyNumbersAreSmallerThanCurrentNumbers
 from solutions.restore_finishing_order import RestoreFinishingOrder
 from solutions.find_the_number_of_good_pairs import FindTheGoodTheNumberOfGoodPairs
+from solutions.decode_the_message import DecodeTheMessage
+
 # print(CountingBits().solution(5))
 
 # print(Fibonacci().solution(3))
@@ -23,4 +25,6 @@ from solutions.find_the_number_of_good_pairs import FindTheGoodTheNumberOfGoodPa
 
 # print(RestoreFinishingOrder().solution([3,1,2,5,4],[1,3,4]))
 
-print(FindTheGoodTheNumberOfGoodPairs().solutiion([1,3,4],[1,3,4],1))
+# print(FindTheGoodTheNumberOfGoodPairs().solutiion([1,3,4],[1,3,4],1))
+
+print(DecodeTheMessage().solution("the quick brown fox jumps over the lazy dog","vkbs bs t suepuv"))

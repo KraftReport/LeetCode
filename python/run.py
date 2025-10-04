@@ -8,6 +8,7 @@ from solutions.how_many_numbers_are_smaller_than_current_number import HowManyNu
 from solutions.restore_finishing_order import RestoreFinishingOrder
 from solutions.find_the_number_of_good_pairs import FindTheGoodTheNumberOfGoodPairs
 from solutions.decode_the_message import DecodeTheMessage
+from solutions.count_number_of_pairs_with_absolute_difference_k import CountNumberOfPairsWithAbsoluteDifferenceK
 
 # print(CountingBits().solution(5))
 
@@ -27,4 +28,6 @@ from solutions.decode_the_message import DecodeTheMessage
 
 # print(FindTheGoodTheNumberOfGoodPairs().solutiion([1,3,4],[1,3,4],1))
 
-print(DecodeTheMessage().solution("the quick brown fox jumps over the lazy dog","vkbs bs t suepuv"))
+# print(DecodeTheMessage().solution("the quick brown fox jumps over the lazy dog","vkbs bs t suepuv"))
+
+print(CountNumberOfPairsWithAbsoluteDifferenceK().solution([1,2,2,1],1))

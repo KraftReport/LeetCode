@@ -6,6 +6,7 @@ require_once './solutions/FindCommonElementBetweenTwoArrays.php';
 require_once './solutions/CheckIfPangram.php'; 
 require_once './solutions/MaximunNumbersOfWordsYouCanType.php';
 require_once './solutions/KthDistinctStringInAnArray.php';
+require_once './Solutions/FindMaximunNumberOfStringPairs.php';
 
 use Solutions\KthDistinctStringInAnArray;
 use Solutions\SortThePeople;
@@ -13,6 +14,7 @@ use Solutions\FindCommonElementBetweenTwoArrays;
 use Solutions\CheckIfPangram;
 use Solutions\FindMissingAndRepeatedValues;
 use Solutions\MaximunNumbersOfWordsYouCanType; 
+use Solutions\FindMaximunNumberOfStringPairs;
 
 
 // var_dump(value: new SortThePeople()->solution(names: ["Mary","John","Emma"],heights: [180,165,170]));
@@ -25,4 +27,6 @@ use Solutions\MaximunNumbersOfWordsYouCanType;
 
 // var_dump(new MaximunNumbersOfWordsYouCanType()->solution("hello world","ad"));
 
-var_dump(new KthDistinctStringInAnArray()->solution(["a","b","a"],3));
+// var_dump(new KthDistinctStringInAnArray()->solution(["a","b","a"],3));
+
+var_dump(new FindMaximunNumberOfStringPairs()->solution(["cd","ac","dc","ca","zz"]));

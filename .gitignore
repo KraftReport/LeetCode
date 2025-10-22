@@ -29,3 +29,7 @@ bin/
 /c\#/Console/bin
 /c\#/Console/obj
 /python/solutions/__pycache__
+/java/program/bin
+java/program/.classpath
+java/program/.project
+/java/program/.settings

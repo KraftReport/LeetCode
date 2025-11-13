@@ -8,6 +8,7 @@ import program.code.DivideArrayIntoEqualPairs;
 import program.code.FindMissingElements;
 import program.code.FindTheXOROfNumbersWhichAppearsTwice;
 import program.code.MaxFrequencyElements;
+import program.code.MinimizedStringLength;
 import program.code.SubarraysDistinctElementSumOfSquares;
 import program.code.SumOfUniqueElements;
 import program.code.UniqueNumberOfOccurences;
@@ -23,6 +24,7 @@ public class Main {
 //		System.out.println(FindMissingElements.solution(new int[] {1,4,2,3,5}));
 //		System.out.println(CheckAllCharactersHaveEqualNumbersOfOccurences.solution("aabbc"));
 //		System.out.println(UniqueNumberOfOccurences.solution(new int[] {1,2}));
-		System.out.println(FindTheXOROfNumbersWhichAppearsTwice.solution(new int[] {1,2,1,3}));
+//		System.out.println(FindTheXOROfNumbersWhichAppearsTwice.solution(new int[] {1,2,1,3}));
+		System.out.println(MinimizedStringLength.solution("baadccab"));
 	}
 }

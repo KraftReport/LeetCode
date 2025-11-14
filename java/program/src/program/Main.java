@@ -3,6 +3,7 @@ package program;
 import java.util.List;
 
 import program.code.CheckAllCharactersHaveEqualNumbersOfOccurences;
+import program.code.CountPairsThatFormACompleteDay;
 import program.code.DestinationCity;
 import program.code.DivideArrayIntoEqualPairs;
 import program.code.FindMissingElements;
@@ -25,6 +26,7 @@ public class Main {
 //		System.out.println(CheckAllCharactersHaveEqualNumbersOfOccurences.solution("aabbc"));
 //		System.out.println(UniqueNumberOfOccurences.solution(new int[] {1,2}));
 //		System.out.println(FindTheXOROfNumbersWhichAppearsTwice.solution(new int[] {1,2,1,3}));
-		System.out.println(MinimizedStringLength.solution("baadccab"));
+//		System.out.println(MinimizedStringLength.solution("baadccab"));
+		System.out.println(CountPairsThatFormACompleteDay.solution(new int[] {12,12,30,24,24}));
 	}
 }

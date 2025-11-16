@@ -10,6 +10,7 @@ import program.code.FindMissingElements;
 import program.code.FindTheXOROfNumbersWhichAppearsTwice;
 import program.code.MaxFrequencyElements;
 import program.code.MinimizedStringLength;
+import program.code.NRepeatedElementin2NArray;
 import program.code.SubarraysDistinctElementSumOfSquares;
 import program.code.SumOfUniqueElements;
 import program.code.UniqueNumberOfOccurences;
@@ -27,6 +28,7 @@ public class Main {
 //		System.out.println(UniqueNumberOfOccurences.solution(new int[] {1,2}));
 //		System.out.println(FindTheXOROfNumbersWhichAppearsTwice.solution(new int[] {1,2,1,3}));
 //		System.out.println(MinimizedStringLength.solution("baadccab"));
-		System.out.println(CountPairsThatFormACompleteDay.solution(new int[] {12,12,30,24,24}));
+//		System.out.println(CountPairsThatFormACompleteDay.solution(new int[] {12,12,30,24,24}));
+		System.out.println(NRepeatedElementin2NArray.solution(new int[] {5,1,5,2,5,3,5,4}));
 	}
 }

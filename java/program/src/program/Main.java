@@ -14,6 +14,7 @@ import program.code.MinimizedStringLength;
 import program.code.NRepeatedElementin2NArray;
 import program.code.SubarraysDistinctElementSumOfSquares;
 import program.code.SumOfUniqueElements;
+import program.code.TwoOutOfThree;
 import program.code.UniqueNumberOfOccurences;
 
 public class Main {
@@ -31,6 +32,7 @@ public class Main {
 //		System.out.println(MinimizedStringLength.solution("baadccab"));
 //		System.out.println(CountPairsThatFormACompleteDay.solution(new int[] {12,12,30,24,24}));
 //		System.out.println(NRepeatedElementin2NArray.solution(new int[] {5,1,5,2,5,3,5,4}));
-		System.out.println(MergeSimilarItems.solution(new int[][] {{1,1},{4,5},{3,8}}, new int[][] {{3,1},{1,5}}));
+//		System.out.println(MergeSimilarItems.solution(new int[][] {{1,1},{4,5},{3,8}}, new int[][] {{3,1},{1,5}}));
+		System.out.println(TwoOutOfThree.solution(new int[] {1,1,3,2}, new int[] {2,3}, new int[] {3}));
 	}
 }

@@ -15,6 +15,7 @@ import program.code.MergeSimilarItems;
 import program.code.MinimizedStringLength;
 import program.code.NRepeatedElementin2NArray;
 import program.code.SubarraysDistinctElementSumOfSquares;
+import program.code.SubstringsOfSizeThreeWithDistinctCharacters;
 import program.code.SumOfElementsWithFrequencyDivisibleByK;
 import program.code.SumOfUniqueElements;
 import program.code.TwoOutOfThree;
@@ -39,8 +40,9 @@ public class Main {
 //		System.out.println(TwoOutOfThree.solution(new int[] {1,1,3,2}, new int[] {2,3}, new int[] {3}));
 //		System.out.println(IncreasingDecreasingString.solution("leetcode"));
 //		System.out.println(SumOfElementsWithFrequencyDivisibleByK.solution(new int[] {1,2,2,3,3,3,3,4},2 ));
-		for (var data : FindTheDistinctDifferenceArray.solution(new int[] {1,2,3,4,5})) {
-			System.out.println(data);
-		}
+//		for (var data : FindTheDistinctDifferenceArray.solution(new int[] {1,2,3,4,5})) {
+//			System.out.println(data);
+//		}
+		System.out.println(SubstringsOfSizeThreeWithDistinctCharacters.solution("aababcabc"));
 	}
 }

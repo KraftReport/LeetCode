@@ -6,11 +6,15 @@ import program.code.CheckAllCharactersHaveEqualNumbersOfOccurences;
 import program.code.CountPairsThatFormACompleteDay;
 import program.code.DestinationCity;
 import program.code.DivideArrayIntoEqualPairs;
+import program.code.FindKSumOfAllKLongSubArrays;
 import program.code.FindMissingElements;
 import program.code.FindTheDistinctDifferenceArray;
 import program.code.FindTheXOROfNumbersWhichAppearsTwice;
 import program.code.IncreasingDecreasingString;
+import program.code.MakeTwoArraysEqualsByReversingSubArrays;
 import program.code.MaxFrequencyElements;
+import program.code.MaximunNumberOfPairsInTheArray;
+import program.code.MaximunStrongPairXOrI;
 import program.code.MergeSimilarItems;
 import program.code.MinimizedStringLength;
 import program.code.NRepeatedElementin2NArray;
@@ -43,6 +47,14 @@ public class Main {
 //		for (var data : FindTheDistinctDifferenceArray.solution(new int[] {1,2,3,4,5})) {
 //			System.out.println(data);
 //		}
-		System.out.println(SubstringsOfSizeThreeWithDistinctCharacters.solution("aababcabc"));
+//		System.out.println(SubstringsOfSizeThreeWithDistinctCharacters.solution("aababcabc"));
+//		for(var data : FindKSumOfAllKLongSubArrays.solution(new int[] {1,1,2,2,3,4,2,3}, 6, 2)) {
+//			System.out.println(data);
+//		} 
+//		for(var data : MaximunNumberOfPairsInTheArray.solution(new int[] {1,3,2,1,3,2,2})) {
+//			System.out.println(data);
+//		}
+//		System.out.println(MakeTwoArraysEqualsByReversingSubArrays.solution(new int[] {1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}, new int[] {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000}));
+	System.out.println(MaximunStrongPairXOrI.solution(new int[] {1,2,3,4,5}));
 	}
 }

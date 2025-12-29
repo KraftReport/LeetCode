@@ -36,7 +36,7 @@ public class NeighborSum {
     }
     
     private int getValue(int r,int c) {
-    	if(r < 0 || r > map.length || c < 0 || c > map.length) return 0;
+    	if(r < 0 || r > map.length-1 || c < 0 || c > map[0].length-1) return 0;
     	return map[r][c];
     }
 }
